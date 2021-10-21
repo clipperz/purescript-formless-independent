@@ -10,5 +10,8 @@
     "generate-bower": "node generate-bower.js"
   },
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "purescript": "^0.14.4",
+    "spago": "^0.20.3"
+  }
 }
