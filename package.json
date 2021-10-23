@@ -7,6 +7,7 @@
   "scripts": {
     "test": "spago test",
     "build": "spago build",
+	"clean": "while read gitIgnorePattern; do if [ \"${gitIgnorePattern}\" != \"/node_modules/\" ] && [ \"${gitIgnorePattern}\" != \"\" ]; then echo \"rm -rf .${gitIgnorePattern}\"; rm -rf .${gitIgnorePattern}; fi done < .gitignore",
     "generate-bower": "node generate-bower.js"
   },
   "devDependencies": {},

@@ -21,6 +21,6 @@ You can edit this file as you like.
 	, "tuples"
 	, "unsafe-coerce"
 	]
-, packages = ../packages.dhall
+, packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }
